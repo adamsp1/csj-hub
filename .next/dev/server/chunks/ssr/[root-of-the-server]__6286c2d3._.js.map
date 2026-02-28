@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/spiro/Projects/csj-hub/csj-hub/src/app/contact/page.tsx"],"sourcesContent":["export default function ContactPage() {\r\n  return (\r\n    <div className=\"prose\">\r\n      <h1>Contact Us</h1>\r\n      <p>\r\n        If you have any questions, comments, or concerns, please feel free to reach out to us.\r\n      </p>\r\n      <p>\r\n        You can email us at: contact@csj-hub.com\r\n      </p>\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;;0BACb,8OAAC;0BAAG;;;;;;0BACJ,8OAAC;0BAAE;;;;;;0BAGH,8OAAC;0BAAE;;;;;;;;;;;;AAKT"}}]
+}

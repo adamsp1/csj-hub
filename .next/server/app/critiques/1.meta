@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/critiques/layout,_N_T_/critiques/[id]/layout,_N_T_/critiques/[id]/page,_N_T_/critiques/1/"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/critiques/$d$id/__PAGE__",
+    "/critiques/$d$id",
+    "/critiques",
+    "/_index",
+    "/_head"
+  ]
+}

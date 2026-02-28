@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/spiro/Projects/csj-hub/csj-hub/src/app/about/disclaimer/page.tsx"],"sourcesContent":["export default function DisclaimerPage() {\r\n  return (\r\n    <div className=\"prose\">\r\n      <h1>Disclaimer</h1>\r\n      <p>\r\n        The views and opinions expressed on this website are those of the authors and do not necessarily reflect the official policy or position of any other agency, organization, employer or company.\r\n      </p>\r\n      <p>\r\n        The information on this website is provided for general information purposes only. While we strive to make the information on this website as timely and accurate as possible, we make no claims, promises, or guarantees about the accuracy, completeness, or adequacy of the contents of this site, and expressly disclaim liability for errors and omissions in the contents of this site.\r\n      </p>\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;;0BACb,8OAAC;0BAAG;;;;;;0BACJ,8OAAC;0BAAE;;;;;;0BAGH,8OAAC;0BAAE;;;;;;;;;;;;AAKT"}}]
+}

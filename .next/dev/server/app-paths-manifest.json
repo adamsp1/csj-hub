@@ -1,0 +1,12 @@
+{
+  "/about/correction-policy/page": "app/about/correction-policy/page.js",
+  "/about/disclaimer/page": "app/about/disclaimer/page.js",
+  "/about/editorial-standards/page": "app/about/editorial-standards/page.js",
+  "/about/page": "app/about/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/glossary/page": "app/glossary/page.js",
+  "/ideologies/[id]/page": "app/ideologies/[id]/page.js",
+  "/ideologies/page": "app/ideologies/page.js",
+  "/page": "app/page.js",
+  "/sources/page": "app/sources/page.js"
+}

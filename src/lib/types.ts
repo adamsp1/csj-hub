@@ -1,15 +1,18 @@
-export interface Topic {
+export interface Ideology {
   id: string;
   title: string;
   description: string;
-  keyConcepts?: string[];
-  claims?: string[];
+  ideologyName?: string;
+  ideologyImage?: string;
+  mainConcepts?: string;
+  coreTheoriesDescription?: string;
+  politicalAgendas?: string;
 }
 
 export interface Critique {
   id: string;
   title: string;
-  topicId: string;
+  ideologyId: string;
   summary: string;
   argument: string;
   evidence?: string[];
@@ -26,6 +29,7 @@ export interface Source {
   type: SourceType;
   url?: string;
   description: string;
-  topicIds: string[];
+  ideologyIds: string[];
+  topicIds?: string[];
   thumbnailUrl?: string;
 }

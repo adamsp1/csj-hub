@@ -1,0 +1,17 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/about/correction-policy/page": "/about/correction-policy",
+  "/about/disclaimer/page": "/about/disclaimer",
+  "/about/editorial-standards/page": "/about/editorial-standards",
+  "/about/page": "/about",
+  "/contact/page": "/contact",
+  "/critiques/[id]/page": "/critiques/[id]",
+  "/critiques/page": "/critiques",
+  "/glossary/page": "/glossary",
+  "/ideologies/[id]/page": "/ideologies/[id]",
+  "/ideologies/page": "/ideologies",
+  "/page": "/",
+  "/sources/page": "/sources",
+  "/submit/page": "/submit"
+}

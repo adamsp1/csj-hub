@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/ideologies/layout,_N_T_/ideologies/page,_N_T_/ideologies/"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/ideologies/__PAGE__",
+    "/ideologies",
+    "/_index",
+    "/_head"
+  ]
+}

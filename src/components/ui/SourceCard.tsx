@@ -30,7 +30,7 @@ export default function SourceCard({ source }: SourceCardProps) {
         </div>
       ) : source.thumbnailUrl ? (
         <Link href={source.url || '#'} target="_blank" rel="noopener noreferrer">
-          <img src={source.thumbnailUrl} alt={source.title} className="w-full h-48 object-cover" />
+          <img src={source.thumbnailUrl} alt={source.title} className="w-full h-48 object-contain bg-gray-100" />
         </Link>
       ) : null}
       <div className="p-4">
@@ -43,11 +43,11 @@ export default function SourceCard({ source }: SourceCardProps) {
         <p className="text-sm text-gray-500 mb-4">{source.description}</p>
         <div className="flex flex-wrap gap-2">
           <span className="bg-gray-200 text-gray-800 px-2 py-1 rounded-full text-sm">{source.type}</span>
-          {source.topicIds.map(topicId => (
+           {(source.topicIds || []).map(topicId => (
              <span key={topicId} className="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-sm">
-                Topic {topicId}
+               Topic {topicId}
              </span>
-          ))}
+           ))}
         </div>
       </div>
     </div>

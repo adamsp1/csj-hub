@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/spiro/Projects/csj-hub/csj-hub/src/app/about/page.tsx"],"sourcesContent":["export default function AboutPage() {\r\n  return (\r\n    <div className=\"prose\">\r\n      <h1>About the Critical Social Justice Hub</h1>\r\n      <p>\r\n        This website is dedicated to providing a platform for critical analysis of progressive ideological frameworks, often referred to as Critical Social Justice (CSJ).\r\n      </p>\r\n      <p>\r\n        Our mission is to foster open, evidence-based discussion and to provide a comprehensive resource for those seeking to understand these complex and often contentious topics from a variety of perspectives.\r\n      </p>\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;;0BACb,8OAAC;0BAAG;;;;;;0BACJ,8OAAC;0BAAE;;;;;;0BAGH,8OAAC;0BAAE;;;;;;;;;;;;AAKT"}}]
+}

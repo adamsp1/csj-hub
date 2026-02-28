@@ -8,8 +8,7 @@ export default function Footer() {
           <div>
             <h3 className="font-bold mb-2">Navigate</h3>
             <ul>
-              <li><Link href="/topics" className="text-gray-600 hover:text-gray-900">Topics</Link></li>
-              <li><Link href="/critiques" className="text-gray-600 hover:text-gray-900">Critiques</Link></li>
+              <li><Link href="/ideologies" className="text-gray-600 hover:text-gray-900">Ideologies</Link></li>
               <li><Link href="/sources" className="text-gray-600 hover:text-gray-900">Sources</Link></li>
               <li><Link href="/glossary" className="text-gray-600 hover:text-gray-900">Glossary</Link></li>
             </ul>

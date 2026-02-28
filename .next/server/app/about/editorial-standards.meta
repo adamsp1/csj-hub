@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/about/layout,_N_T_/about/editorial-standards/layout,_N_T_/about/editorial-standards/page,_N_T_/about/editorial-standards/"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/about/editorial-standards/__PAGE__",
+    "/about/editorial-standards",
+    "/about",
+    "/_index",
+    "/_head"
+  ]
+}

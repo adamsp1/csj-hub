@@ -7,6 +7,10 @@ body {
   color: #212529;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  @apply font-serif;
+}
+
 .prose {
   max-width: 800px;
   margin: 0 auto;

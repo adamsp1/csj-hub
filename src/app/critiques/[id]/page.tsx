@@ -3,8 +3,15 @@ import { sources } from "@/data/sources";
 import SourceCard from "@/components/ui/SourceCard";
 import { notFound } from "next/navigation";
 
-export default function CritiqueDetailPage({ params }: { params: { id: string } }) {
-  const critique = critiques.find((c) => c.id === params.id);
+export async function generateStaticParams() {
+  return critiques.map((critique) => ({
+    id: critique.id,
+  }));
+}
+
+export default async function CritiqueDetailPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
+  const critique = critiques.find((c) => c.id === id);
 
   if (!critique) {
     notFound();
