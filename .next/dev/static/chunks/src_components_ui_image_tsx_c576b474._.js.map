@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/spiro/Projects/csj-hub/csj-hub/src/components/ui/image.tsx"],"sourcesContent":["'use client';\r\n\r\nimport NextImage, { ImageProps } from 'next/image';\r\n\r\nexport function Image(props: ImageProps) {\r\n  return <NextImage {...props} />;\r\n}\r\n"],"names":[],"mappings":";;;;;AAEA;AAFA;;;AAIO,SAAS,MAAM,KAAiB;IACrC,qBAAO,6LAAC,2IAAS;QAAE,GAAG,KAAK;;;;;;AAC7B;KAFgB"}}]
+}

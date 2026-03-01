@@ -8,6 +8,7 @@ export default function Header() {
           CSJ Hub
         </Link>
         <nav className="hidden md:flex space-x-6">
+          <Link href="/" className="text-gray-600 hover:text-gray-900">Home</Link>
           <Link href="/ideologies" className="text-gray-600 hover:text-gray-900">Ideologies</Link>
           <Link href="/sources" className="text-gray-600 hover:text-gray-900">Sources</Link>
           <Link href="/glossary" className="text-gray-600 hover:text-gray-900">Glossary</Link>

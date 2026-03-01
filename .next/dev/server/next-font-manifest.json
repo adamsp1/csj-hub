@@ -1,8 +1,5 @@
 {
   "app": {
-    "[project]/src/app/about/correction-policy/page": [],
-    "[project]/src/app/about/disclaimer/page": [],
-    "[project]/src/app/about/editorial-standards/page": [],
     "[project]/src/app/about/page": [],
     "[project]/src/app/contact/page": [],
     "[project]/src/app/glossary/page": [],

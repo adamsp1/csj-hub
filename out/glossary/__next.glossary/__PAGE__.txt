@@ -1,5 +1,9 @@
 1:"$Sreact.fragment"
-2:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
-3:"$Sreact.suspense"
-0:{"buildId":"ug49Rj_FkcKVG5PaYHjhv","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"prose","children":[["$","h1",null,{"children":"Glossary"}],["$","dl",null,{"children":[["$","div","Deconstruction",{"className":"mb-4","children":[["$","dt",null,{"className":"font-bold","children":"Deconstruction"}],["$","dd",null,{"children":"A method of critical analysis of philosophical and literary texts which emphasizes the internal workings of language and conceptual systems, the relational quality of meaning, and the assumptions implicit in forms of expression."}]]}],["$","div","Intersectionality",{"className":"mb-4","children":[["$","dt",null,{"className":"font-bold","children":"Intersectionality"}],["$","dd",null,{"children":"The interconnected nature of social categorizations such as race, class, and gender as they apply to a given individual or group, regarded as creating overlapping and interdependent systems of discrimination or disadvantage."}]]}],["$","div","Systemic Racism",{"className":"mb-4","children":[["$","dt",null,{"className":"font-bold","children":"Systemic Racism"}],["$","dd",null,{"children":"A form of racism that is embedded as normal practice within society or an organization. It can lead to such issues as discrimination in criminal justice, employment, housing, health care, political power, and education, among other issues."}]]}]]}]]}],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"loading":null,"isPartial":false}
-4:null
+2:I[47257,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"ClientPageRoot"]
+3:I[35364,["/_next/static/chunks/7c92e96509cd355e.js","/_next/static/chunks/3cb3b9a4795e6d09.js"],"default"]
+6:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+0:{"buildId":"_GpvTgGI-WQRg-kiLrcM9","rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/_next/static/chunks/3cb3b9a4795e6d09.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"loading":null,"isPartial":false}
+4:{}
+5:{}
+8:null

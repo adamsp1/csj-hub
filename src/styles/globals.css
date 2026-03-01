@@ -15,3 +15,11 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 800px;
   margin: 0 auto;
 }
+
+/* Hide Next.js and Vercel badges/overlays */
+[data-nextjs-badge],
+[data-vercel-badge],
+div[style*="position: fixed"][style*="bottom"],
+div[style*="position: fixed"][style*="left"] {
+  display: none !important;
+}

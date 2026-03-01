@@ -1,4 +1,3 @@
-import { Image } from '@/components/ui/image';
 import { ideologies } from '@/data/ideologies';
 import { critiques } from '@/data/critiques';
 import { Ideology } from '@/lib/types';
@@ -25,25 +24,34 @@ export default async function IdeologyDetailPage({ params }: { params: Promise<{
 
   return (
     <div className="min-h-screen bg-background">
-      {/* Sticky Title Bar */}
-      <div className="sticky top-0 z-40 bg-white border-b border-gray-200 shadow-sm">
-        <div className="max-w-7xl mx-auto px-6 lg:px-16 py-4">
-          <h1 className="text-2xl font-bold text-gray-900">{ideology?.ideologyName}</h1>
-        </div>
-      </div>
+      {/* Large title (single source of truth) - sticky at top while scrolling */}
 
       <div className="w-full min-h-[600px]">
         <>
-          {/* Hero Section */}
-            {ideology?.ideologyImage && (
-              <section className="w-full bg-gradient-to-b from-gray-900 to-gray-800">
-                <div className="max-w-7xl mx-auto px-6 lg:px-16 py-12">
-                  <h1 className="text-4xl lg:text-5xl font-bold text-white">
-                    {ideology.ideologyName}
+            {/* Hero / Sticky Title Section */}
+            <div
+              className={`sticky top-0 z-40 ${
+                ideology?.ideologyImage
+                  ? 'bg-gradient-to-b from-gray-900 to-gray-800'
+                  : 'bg-white border-b border-gray-200'
+              }`}
+            >
+              <div className="max-w-7xl mx-auto px-6 lg:px-16 py-4">
+                <div className="flex items-center gap-6">
+                  {ideology?.ideologyImage ? (
+                    <img
+                      src={ideology.ideologyImage}
+                      alt={ideology.ideologyName ?? ideology.title ?? ''}
+                      className="w-20 h-20 rounded-md object-contain flex-shrink-0"
+                    />
+                  ) : null}
+
+                  <h1 className={`text-3xl sm:text-4xl lg:text-5xl font-bold ${ideology?.ideologyImage ? 'text-white' : 'text-gray-900'}`}>
+                    {ideology?.ideologyName}
                   </h1>
                 </div>
-              </section>
-            )}
+              </div>
+            </div>
 
             {/* Content Section with Side Panel */}
             <section className="w-full py-20 bg-gray-50">
@@ -79,11 +87,7 @@ export default async function IdeologyDetailPage({ params }: { params: Promise<{
                       </Link>
                     </div>
 
-                    {!ideology?.ideologyImage && (
-                      <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-12">
-                        {ideology?.ideologyName}
-                      </h1>
-                    )}
+                    {/* Title is shown in the sticky header above; no duplicate title here */}
 
                     {/* Ideology Description */}
                     <div className="prose lg:prose-xl mb-12">
